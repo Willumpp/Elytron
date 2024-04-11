@@ -1,0 +1,91 @@
+{
+    "id": "7a5f11cd-ed5d-4027-990b-156b72ebffbd",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_PlayerBullet",
+    "eventList": [
+        {
+            "id": "14a8a9ec-bed1-4c9c-a9b2-40595bdbb5b0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "7a5f11cd-ed5d-4027-990b-156b72ebffbd"
+        },
+        {
+            "id": "625b93f4-5d6a-4d2a-99e0-16fa8b1b0877",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 7,
+            "m_owner": "7a5f11cd-ed5d-4027-990b-156b72ebffbd"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "335139e3-f243-4389-bc53-39473fc5c500",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "speed",
+            "varType": 0
+        },
+        {
+            "id": "98064711-0f28-4ec5-a58d-6dc74fb3a99f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "bulletSpeed",
+            "varType": 0
+        },
+        {
+            "id": "5b914d47-b14e-4c27-a160-b811cadcc9bc",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "depth",
+            "varType": 0
+        }
+    ],
+    "solid": false,
+    "spriteId": "c0580c97-3e3b-4841-ab72-1fdf6cea5f6b",
+    "visible": true
+}
